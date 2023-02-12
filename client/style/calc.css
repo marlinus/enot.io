@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 550px;
+    height: 350px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 0 0 7px black;
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper h2 {
+    transform: translateY(-50px);
+}
+
+.wrapper input.active, .wrapper select {
+    all: unset;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.wrapper select {
+    width: 300px;
+}
+
+.wrapper input[type='submit'] {
+    width: 220px;
+    padding: 5px;
+    cursor: pointer;
+    transition: all .13s ease-out;
+}
+
+.wrapper input[type='submit']:hover {
+    transform: scale(1.05);
+}
+
+.wrapper form {
+    display: flex;
+    flex-direction: column;
+}
+
+div.active {
+    text-align: center;
+}

@@ -1,0 +1,11 @@
+{
+    "name": "roberto/auth",
+    "description": "auth parser rate",
+    "license": "enot.io",
+    "autoload": {
+        "psr-4": {
+            "classes\\": "classes"
+        }
+    },
+    "require": {}
+}
